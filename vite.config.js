@@ -112,7 +112,7 @@ export default defineConfig(({ command, mode }) => {
     copyNoopSW(),
   ];
 
-  if (!isDev) {
+  if (isDev) {
     console.log("Enabling service worker...");
 
     plugins.push(
