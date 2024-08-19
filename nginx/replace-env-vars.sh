@@ -5,7 +5,7 @@
 
 set -e
 
-INDEX_BUNDLE_PATH="/app/dashboard/index.html"
+INDEX_BUNDLE_PATH="/usr/share/nginx/html/index.html"
 
 # Function to replace environment variables
 replace_env_var() {
