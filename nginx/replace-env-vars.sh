@@ -6,6 +6,12 @@
 set -e
 
 INDEX_BUNDLE_PATH="/usr/share/nginx/html/index.html"
+API_URL=https://saleor.gozar.team/graphql/
+APP_MOUNT_URI=/
+APPS_MARKETPLACE_API_URL=https://apps.saleor.io/api/v2/saleor-apps
+LOCALE_CODE="fa"
+DEMO_MODE=false
+BASE_URL=https://dash.gozar.team/
 
 # Function to replace environment variables
 replace_env_var() {
